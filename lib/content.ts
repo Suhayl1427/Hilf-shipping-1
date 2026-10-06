@@ -230,7 +230,7 @@ export const contact = {
 };
 
 export const footer = {
-  logo: "/images/hilp-shipping-logo.jpeg",
+  logo: "/images/hilp-shipping-logo.png",
   tagline: "Your Voyage, Our Expertise",
   text: "Dry bulk ship operator delivering chartering, shipping, and commercial management solutions across global commodity trades.",
   quickLinks: [

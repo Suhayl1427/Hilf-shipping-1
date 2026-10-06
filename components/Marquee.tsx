@@ -18,7 +18,7 @@ function Cell({ logo }: { logo: Logo }) {
         <span className="logo-in display text-xl md:text-2xl text-navy px-6 text-center">{logo.name}</span>
       ) : (
         // eslint-disable-next-line @next/next/no-img-element
-        <img ref={ref} src={logo.src} alt={logo.name} loading="lazy" onError={() => setFailed(true)} className="logo-in max-h-10 md:max-h-14 max-w-[70%] w-auto object-contain" />
+        <img ref={ref} src={logo.src} alt={logo.name} loading="eager" decoding="async" onError={() => setFailed(true)} className="logo-in max-h-10 md:max-h-14 max-w-[70%] w-auto object-contain" />
       )}
     </li>
   );

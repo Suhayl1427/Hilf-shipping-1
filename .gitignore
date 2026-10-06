@@ -2,3 +2,8 @@
 node_modules
 next-env.d.ts
 *.tsbuildinfo
+.impeccable/
+qa.tmp.mjs
+# unused full-size originals (web copies are used instead)
+public/images/cargos/cargo-ship-miami-harbor.jpg
+public/images/cargos/cargo-ship-miami-harbor2.jpg

@@ -30,7 +30,7 @@ const jsonLd = {
       "@type": "Organization",
       name: "Hilf Shipping",
       url: "https://hilfshipping.com",
-      logo: "https://hilfshipping.com/images/hilp-shipping-logo.jpeg",
+      logo: "https://hilfshipping.com/images/hilp-shipping-logo.png",
       email: "chartering@hilfshipping.com",
     },
     {
